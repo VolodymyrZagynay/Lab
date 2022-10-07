@@ -1,0 +1,27 @@
+while True:
+    xd = input('Який знак????: ')
+    a = int(input("ведіть перше ч :  "))
+    b = int(input("ведіть другк ч :  "))
+
+    if xd == '/':
+        if a == 0 or b == 0:
+            print("вчітб математику!!!1!")
+        else :
+            print('error')
+    elif xd == '+':
+        c = a + b
+        print("Resualt - " + str(c))
+    elif xd == '-':
+        c = a - b
+        print("Resualt - " + str(c))
+    elif xd == '/':
+        c = a / b
+        print("Resualt - " + str(c))
+    elif xd == '*':
+        c = a * b
+        print("Resualt - " + str(c))
+    elif xd == '/':
+        if a == 0 or b == 0:
+            print("вчітб математику!!!1!")
+        else :
+            print('error')
