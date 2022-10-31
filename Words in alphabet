@@ -1,0 +1,3 @@
+text=str(input("Enter text: "))
+n=sorted(text.split())
+print(n)
