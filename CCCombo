@@ -1,0 +1,35 @@
+while True:
+    sam = input("a/b/c/help:  ")
+    if sam == "a":
+        def word_count(str):
+            counts = dict()
+            words = str.split()
+
+            for word in words:
+                if word in counts:
+                    counts[word] += 1
+                else:
+                    counts[word] = 1
+
+            return counts
+
+        print( word_count(input()))
+    elif sam == "b":
+        text = input("Enter text: ")
+        l = text.split()
+        a = ["for", "a", "to", "and", "etc", "as", "For", "A", "To", "And", "Etc", "As"]
+        q = ""
+        for i in l:
+            if i in a:
+                while i in l:
+                    l.remove(i)   
+        l.sort(key=len)
+        for i in l:
+            q += i + " "
+        print(q)
+    elif sam == "c":
+        text=str(input("Enter text: "))
+        n=sorted(text.split())
+        print(n)
+    if sam == "help":
+        print("a - кількість слів які записані в речені, b - маленькі і великі слова, c - слова по алфавіту")
