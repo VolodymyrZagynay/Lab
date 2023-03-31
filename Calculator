@@ -10,16 +10,16 @@ while True:
             print('error')
     elif xd == '+':
         c = a + b
-        print("Resualt - " + str(c))
+        print("Result - " + str(c))
     elif xd == '-':
         c = a - b
-        print("Resualt - " + str(c))
+        print("Result - " + str(c))
     elif xd == '/':
         c = a / b
-        print("Resualt - " + str(c))
+        print("Result - " + str(c))
     elif xd == '*':
         c = a * b
-        print("Resualt - " + str(c))
+        print("Result - " + str(c))
     elif xd == '/':
         if a == 0 or b == 0:
             print("вчітб математику!!!1!")
